@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: tiendaap
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: tiendaap_test
+  pool: 5
+  host: localhost
+  encoding: unicode
